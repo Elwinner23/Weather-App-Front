@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  padding: 0 65px;
+  font-family: "Poppins";
+  background-color: #343d4b;
+}
+
+#continet-name {
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: black;
+}
+  
+a:hover {
+  color: black;
+}
+
+.weather-logo {
+  height: 72px;
+  width: 72px;
+}
+
+#home-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 24px;
+}
+
+.continent-container {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 423px 423px 423px;
+  gap: 20px;
+}
+
+.continent-back-1 {
+  background-color: #cb90e0;
+  opacity: 0.9;
+  width: 170px;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.continent-back-2 {
+  background-color: #fe9800;
+  opacity: 0.8;
+  width: 170px;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.continent-back-3 {
+  background-color: #fee400;
+  opacity: 0.8;
+  width: 170px;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.continent-back-4 {
+  background-color: #ff9595;
+  opacity: 0.8;
+  width: 170px;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 20px;
+}
+.continent-back-5 {
+  background-color: #90d9e0;
+  opacity: 0.8;
+  width: 170px;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.continent-back-6 {
+  background-color: #2654aa;
+  opacity: 0.8;
+  width: 170px;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 20px;
+}
+.country-box {
+  background-color: #d9d9d9;
+  display: flex;
+  height: 250px;
+  align-items: center;
+  border-radius: 20px;
+  position: relative;
+}
+
+.n_america {
+  height: 94px;
+  width: 156px;
+  z-index: 2;
+}
+
+.africa {
+  height: 94px;
+  width: 156px;
+  z-index: 2;
+  padding-left: 20px;
+}
+
+.asia {
+  height: 94px;
+  width: 156px;
+  z-index: 2;
+  padding-left: 20px;
+}
+
+.s_america {
+  height: 94px;
+  width: 156px;
+  z-index: 2;
+  padding-left: 20px;
+}
+
+.oceania {
+  height: 94px;
+  width: 156px;
+  z-index: 2;
+  padding-left: 20px;
+}
+.europe {
+  height: 94px;
+  width: 156px;
+  z-index: 2;
+  padding-left: 20px;
+}
+
+.title {
+  width: 50%;
+  margin-left: auto;
+}
+
+h4 {
+  font-size: 35px;
+}
